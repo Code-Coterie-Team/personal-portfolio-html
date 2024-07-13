@@ -1,7 +1,9 @@
 *{
     padding:0px;
     margin: 0px;
+   
 }
+
 header{
     background-color:black ;
     height:60px;
@@ -11,6 +13,9 @@ header{
     border-left: none;
     border-right: none;
 }
+body{
+    background-color: gray;
+}
  li{
     display: inline-block;
     text-align: center;
@@ -19,7 +24,7 @@ header{
     margin-top: 20px;
     
 }
-li:hover{
+ li:hover{
 
 color:black;
 background-color: aliceblue;
@@ -29,15 +34,117 @@ text-align: center;
 }
 .personal{
     background-color: rgb(151, 149, 149);
-    width: 100%;
-    height: 400px;
+    width:100%;
+    height:500px;
 }
+
 h1{
-    color: antiquewhite;
+    color:white;
     text-align: center;
     padding-top: 200px;
 }
 .social{
     display:inline-block;
+
    
+}
+.aboutme{
+    width: 100%;
+    height: 700px;
+    background-color: rgb(241, 241, 241);
+    
+}
+.aboutme h1{
+    color: black;
+    text-align: left;
+    padding-top: 30px;
+
+}
+.aboutme pre{
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 200px;
+}
+.aboutme img{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    padding-left: 40px;
+    
+}
+
+.project{
+    width: 100%;
+    height: 800px;
+    background-color: rgb(36, 172, 167);
+}
+
+.project .calculater{
+    display: inline-block;
+    width:400px;
+    height: 300px;
+    background-color: white;
+    margin-top :30px;
+    margin-left:20px;
+    margin-right: 10px;
+}
+.calculater img{
+    width: 300px;
+    height: 200px;
+}
+
+.project .pomodoro{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    display:inline-block;
+    margin-right: 10px;
+
+}
+
+
+
+.touch{
+    width: 100%;
+    height:600px;
+    background-color: rgb(245, 245, 220);
+}
+.get{
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 40px;
+    padding-top: 60px;
+}
+.note{
+    font-size: small;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    
+}
+label{
+    font-size: medium;
+    font-weight: bold;
+    padding: 10px 10px 40px 40px;
+    margin-bottom:20px;
+}
+
+input{
+    padding: 10px 10px 40px 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: none;
+    border-color: rgb(175, 188, 199);
+    width:100%;
+    height:3px;
+}
+.submit{
+    background-color: rgb(95, 199, 95);
+    color: white;
+    width:80px;
+    height:20px;
+    margin-left:40px;
+    margin-top: 15px;
+    border: none;
 }
